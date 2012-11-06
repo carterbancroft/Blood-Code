@@ -12,7 +12,7 @@
 				var success = false;
 				for (var i = 0; i < keystrokes.length; i++) {
 					if (keystrokes[i] === code[i]) {
-						if (keystrokes.length === code.length) {
+						if (keystrokes.length === code.length && keystrokes[code.length - 1] === code[code.length - 1]) {
 							success = true;
 							keystrokes = [];
 						}
