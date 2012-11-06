@@ -3,7 +3,7 @@
 		var extended = $.extend({}, $.fn.bloodCode.defaults, options);
 		
 		return this.each(function() {
-			var code = [65, 66, 65, 67, 65, 66, 66, 65];  // A B A C A B B A
+			var code = [65, 66, 65, 67, 65, 66, 66];  // A B A C A B B
 			var keystrokes = [];
 
 			$(window).keyup(function(event) {
