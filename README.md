@@ -1,4 +1,4 @@
-#jQuery Blood Code
+# jQuery Blood Code
 This is a jQuery Konami Code inspired jQuery plugin for adding Easter eggs to a website via the blood code from Mortal Kombat 1. If you aren't familiar with Mortal Kombat 1 then you probably don't care much about this.
 
 At this point the code is very old but it still works, at least with the particular version of jQuery this was built against (1.8.2).
